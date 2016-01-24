@@ -107,10 +107,22 @@ button:hover {
 }
 
 .search-results ul li {
-    width: 32%;
+    min-height: 10rem;
+    width: 30%;
     display: inline-block;
     padding: 1rem;
     border: 1px solid darkgray;
+    color: darkgray;
+    margin: 0.2rem;
+}
+
+.search-results ul li .title {
+    min-height: 6rem;
+}
+
+.search-results ul li .image {
+    max-height: 7rem;
+    overflow: hidden;
 }
 
 .search-results ul li img {
